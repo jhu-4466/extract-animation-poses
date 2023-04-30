@@ -1,6 +1,6 @@
 # 3d animations sources
 3danimations/
-3danimations/*.fbx
+*.fbx
 
 # venv
 dle
