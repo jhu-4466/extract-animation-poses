@@ -55,7 +55,7 @@ def render_animation(fbx_file, output, camera_x, camera_z, frames=60):
     bpy.ops.transform.translate(value=(0, 0, 1), orient_type='GLOBAL')
 
     # 渲染
-    bpy.ops.render.render(animation=True)
+    bpy.ops.render.render(animation=True, write_still=True)
 
 
 def extract_poses(blender_folder, output_folder):
