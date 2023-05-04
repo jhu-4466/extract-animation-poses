@@ -29,8 +29,8 @@ pip install -r requirements.txt
 参考 <https://github.com/Hzzone/pytorch-openpose> 的README.md中Download the Models部分。
 
 3. 运行（Run）
-```
-python .\transform_animation.py -a 'fbx_file_path' -o 'output_path' -f int32 -x float -z float
+```python
+python .\extract_animation_poses.py -a 'fbx_file_path' -o 'output_path' -f int32 -x float -z float
 ```
 参数解释：
 
