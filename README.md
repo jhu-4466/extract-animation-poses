@@ -1,4 +1,4 @@
-# 3D角色动画转2D角色动画（Transform Animation）
+# 提取3d动画的姿势（Extract 3d animation poses）
 
 ## 资源（Resources）
 
@@ -10,7 +10,7 @@
 
 ## 描述（Describtions）
 
-将一个3D的人物动画，通过blender、openpose进行“侧面”渲染、提取姿势等操作，完成3D与2D动画的转换。
+将一个3D的人物动画，通过blender、openpose进行“侧面”渲染、提取姿势等操作，完成3D与2D动画的转换（尚未完成2d动画的生成）。
 
 ## 使用步骤（Get Started & Run）
 
